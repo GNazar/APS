@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="DB"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="C:/JavaCV/javacv-bin/javacpp.jar"/>
+	<classpathentry kind="lib" path="C:/JavaCV/javacv-bin/javacv.jar" sourcepath="C:/JavaCV/javacv-bin/javacv.jar"/>
+	<classpathentry kind="lib" path="C:/JavaCV/javacv-bin/javacv-windows-x86_64.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.6.0/lib/jna-3.0.9.jar" sourcepath="C:/Program Files/Java/jre1.6.0/lib/jna-3.0.9.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/PostgreSQL/pgJDBC/postgresql-9.1-901.jdbc4.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/PostgreSQL/pgJDBC/postgresql-9.1-901.jdbc3.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.7.0_03/jre/lib/rt.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jdk1.7.0_03/jre/lib/jsse.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/lib/ext/mlibwrapper_jai.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/lib/ext/jai_codec.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/lib/ext/jai_core.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/JMF2.1.1e/lib/customizer.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/JMF2.1.1e/lib/jmf.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/JMF2.1.1e/lib/mediaplayer.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/JMF2.1.1e/lib/multiplayer.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/JMF2.1.1e/lib/sound.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
