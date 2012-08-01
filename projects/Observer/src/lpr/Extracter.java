@@ -82,6 +82,7 @@ public class Extracter {
 		 	
 		int dist = 0;
 		int prev = 0;
+		
 		CvMat data;
 		LinkedList <Integer> list = new LinkedList<Integer>();
 

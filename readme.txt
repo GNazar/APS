@@ -1,15 +1,19 @@
 Before launching must be created database.
-Files inf.adm, testvideo.avi and flame.avi must be placed in current directory.
+Files inf.adm, testvideo.avi, flame.avi and folder templates must be placed in current directory.
+
+Server - program responsible for parsing messeges from cliets.
+Observer - client responsible for working with camera.
+Manager - respomsible for interaction with users;
 
 System administrator login: l.
 System administrator password: p.
 
 User commands:
 history - output history;
-cars - output list of cars that can enter the parking
-parkings - output list of parkings
-log out - logout current user
-exit - exit program
+cars - output list of cars that can enter the parking;
+parkings - output list of parkings;
+log out - logout current user;
+exit - exit program;
  
 Company administrator commands:
 history - output history;

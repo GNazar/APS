@@ -16,8 +16,8 @@ public class OCR {
 
 	//array of characters that is going to be recognized;
 	private char[] characters = {'0', '1', '2', '3', '4','5' ,'6', '7', '8', '9', 
-				1040, 1042, 1057, 1045, 1053, 1030, 1050, 1052, 1054, 1056, 1058, 1061};
-				//'À', 'B', 'C',   'E', 'H',   'I',   'K', 'M', 'O',   'P',   'T',  'X'
+				1026, 8218, 8216, 8230, 1036, 63, 1033, 1034, 1035, 1106, 8217, 8226 };
+				//'À', 'B', 'C',   'E', 'H', 'I',  'K', 'M', 'O',   'P',   'T',  'X'
 
 	private int train_s;	//number of templates;  
 	private final int c = characters.length ;			//number of characters

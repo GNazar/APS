@@ -151,8 +151,13 @@ public class Observer {
 						p = new Plate( pl );
 						num = p.recognize( ocr );
 						
-						if ( c.isAllowed( num ) )
+						System.out.println( "Number: " + new String ( num.getValue() ) );
+						
+						if ( c.isAllowed( num ) ){
 							mp.play( currentdir );
+							System.out.println( c.isAllowed( num ) );
+						}	
+					
 						
 						t = 0;
 						

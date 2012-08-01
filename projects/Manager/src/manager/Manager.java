@@ -34,7 +34,6 @@ public class Manager {
 
 	}
 	
-	
 	//login new user
 	public int login(){
 		User user;
@@ -164,6 +163,12 @@ public class Manager {
 		System.out.print ( "Enter number->" );
 		try{
 			str = reader.readLine();
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!			
+			System.out.println( "Code: " );
+			for( int i = 0; i < str.length(); i++ ){
+				System.out.println( (int)str.charAt(i) );
+			}
+//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!			
 			n = new Number ( str.toCharArray( ) );
 			System.out.print ( "Enter parking address->" );
 			addr = reader.readLine();
@@ -583,12 +588,6 @@ public class Manager {
 			}
 		}while ( i >= 0);
 		
-		System.out.println( "End session." );
-		System.out.println( "end" );
-		
-		
-		
-
 	}
 
 }
