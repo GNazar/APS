@@ -111,7 +111,6 @@ public class Observer {
 		return res;
 	}
 	
-
 	 public static void main(String[] args) throws InterruptedException {
 		 String currentdir = null;
 	

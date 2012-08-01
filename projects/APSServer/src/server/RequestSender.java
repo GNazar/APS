@@ -241,7 +241,7 @@ public class RequestSender {
 			}
 		}catch( SQLException ex ){
 			System.out.println( "Error while updating history!" );
-			ex.printStackTrace();
+//			ex.printStackTrace();
 			System.out.println( ex.getMessage() );
 			res = -1;
 		}
@@ -273,7 +273,7 @@ public class RequestSender {
 		}catch( SQLException e ){
 			System.out.println( "Error while sampling cars!" );
 			System.out.println( e.getMessage() );
-			e.printStackTrace();
+//			e.printStackTrace();
 		}	
 		
 		return res;
