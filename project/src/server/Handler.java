@@ -1,5 +1,0 @@
-package server;
-
-interface Handler{
-	
-} 
