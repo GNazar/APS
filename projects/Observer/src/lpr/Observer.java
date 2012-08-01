@@ -150,14 +150,10 @@ public class Observer {
 					if ( pl != null )  {					//plate found;
 						p = new Plate( pl );
 						num = p.recognize( ocr );
-						
-						System.out.println( "Number: " + new String ( num.getValue() ) );
-						
+
 						if ( c.isAllowed( num ) ){
 							mp.play( currentdir );
-							System.out.println( c.isAllowed( num ) );
-						}	
-					
+						}
 						
 						t = 0;
 						

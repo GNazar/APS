@@ -67,12 +67,6 @@ public class Cars extends Thread {
 					cars.addAll( set );		//add received cars set to local set of cars;
 				}
 				
-				System.out.println( "Local database: " );
-				
-				for ( Number n : cars ){
-					System.out.println( new String ( n.getValue() ) );
-				}
-				
 			}catch( ClassCastException e ){
 				System.out.println( "Error while receiving cars updating!" );
 				System.out.println( e.getMessage() );

@@ -162,13 +162,7 @@ public class Manager {
 		
 		System.out.print ( "Enter number->" );
 		try{
-			str = reader.readLine();
-//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!			
-			System.out.println( "Code: " );
-			for( int i = 0; i < str.length(); i++ ){
-				System.out.println( (int)str.charAt(i) );
-			}
-//!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!			
+			str = reader.readLine();			
 			n = new Number ( str.toCharArray( ) );
 			System.out.print ( "Enter parking address->" );
 			addr = reader.readLine();
